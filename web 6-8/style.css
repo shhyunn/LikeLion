@@ -1,0 +1,111 @@
+html {
+    font-size: 10px;
+}
+
+div {
+    box-sizing: content-box;
+    width: 100px;
+    padding: 5px;
+}
+
+h1 {
+    color: brown;
+}
+
+* {
+    color: brown;
+}
+
+.coding {
+    color: brown;
+}
+
+h2.coding {
+    color: brown;
+}
+
+#original {
+    color: brown;
+}
+
+div p {
+    color: brown;
+}
+
+div {
+    margin: 20px;
+}
+
+div {
+    border: 6px solid blue;
+}
+
+div {
+    border-width: 6px;
+    border-style: solid;
+    border-color: blue;
+}
+
+div {
+    padding: 4px;
+}
+
+div.outer {
+    width: 100px;
+    font-size: 20px;
+}
+
+div.inner {
+    width: 50%;
+    width: 2em;
+}
+
+div.expand {
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    /* object-fit: cover; */
+    /* object-fit: contain; */
+}
+
+div.overflow {
+    border: 2px solid black;
+    width: 180px;
+    font-size: 50px;
+    overflow: auto;
+
+}
+
+p.container {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.container {
+    background-color: yellow;
+    background-image: url(sample.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+body {
+    /* margin: 0 auto; */
+    text-align: center;
+
+}
